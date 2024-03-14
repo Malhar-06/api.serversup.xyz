@@ -16,11 +16,12 @@ We welcome contributions from developers of all skill levels. Here's how you can
     git clone https://github.com/your-username/hello-world-project.git
     ```
 
-3. **Create a New Branch**: Create a new branch named as your user ID for your contributions.
+3. **Create a New Branch**: To contribute, create a new branch with your user ID as the branch name. Follow the convention of prefixing the branch name with 'feature' to help organize branches effectively.
 
     ```bash
-    git checkout -b <your-branch>
+    git checkout -b feature/<your-branch>
     ```
+
 4. **Create your Hello World Application**: You can refer other applications code to create your own application which will give same output as other applications are giving it also includes applications response time.
 
 5. **Add Your Hello World Application**: Add your "Hello World" applocation in the framework of your choice. You need to create a new directory for your application in the ```HelloApps``` directory.
@@ -45,7 +46,7 @@ By making these changes, you'll not only add your Hello World application to the
 8. **Push Changes**: Push your changes to your forked repository.
 
     ```bash
-    git push origin <your-branch>
+    git push origin feature/<your-branch>
     ```
 
 9. **Submit a Pull Request**: Finally, submit a pull request from your branch to the test repository. Be sure to provide a detailed description of your changes.
